@@ -1,0 +1,386 @@
+@import url(fonts.css);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* header */
+
+.header-nav {
+    background: #282828;
+}
+
+.header-list {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@media (max-width:412px) {
+    .header-list {
+        flex-direction: column;
+        padding-bottom: 15px;
+    }
+}
+
+.header-link {
+    color: #FFFFFF;
+}
+
+.header-panel {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    color: #FFFFFF;
+    margin: 6px 0;
+}
+
+@media (max-width:360px) {
+    .header-panel {
+        gap: 15px;
+    }
+}
+
+.header-nav-others {
+    display: flex;
+    justify-content: start;
+    gap: 25px;
+}
+
+@media (max-width:410px) {
+    .header-nav-others {
+        gap: 10px;
+    }
+}
+
+.header-info {
+    background: url(../img/header-bg.png) center center / cover no-repeat;
+
+}
+
+.header-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 204px;
+}
+
+.header-title {
+    color: #FFF;
+    font-family: "Prosto_One";
+    font-weight: 400;
+    font-size: 100px;
+}
+
+@media (max-width:680px) {
+    .header-title {
+        text-align: center;
+    }
+}
+
+@media (max-width:460px) {
+    .header-title {
+        font-size: 50px;
+    }
+}
+
+.official-site {
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
+    background: #FFF;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 268px;
+}
+
+/* header */
+/* section */
+.section {
+    background: rgb(21, 21, 21, 1);
+}
+
+.airpods-img {
+    max-width: 500px;
+    width: 100%;
+    max-height: 500px;
+}
+
+/* @media (max-width:768px) {
+    .airpods-img {
+        
+    }
+} */
+
+.section-info {
+    display: flex;
+}
+
+@media (max-width:768px) {
+    .section-info {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: justify;
+    }
+}
+
+.section-info1 {
+    display: flex;
+    align-items: center;
+}
+
+@media (max-width:768px) {
+    .section-info1 {
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+    }
+}
+
+.section-txt {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 22px;
+    margin-top: 63px;
+    line-height: 26.82px;
+    max-width: 540px;
+}
+
+@media (max-width:768px) {
+    .section-txt {
+        max-width: 500px;
+        margin-right: 0;
+    }
+}
+
+.airpods-img1 {
+    max-width: 457px;
+    max-height: 408px;
+    display: flex;
+    order: -1;
+    margin-right: 87px;
+}
+
+@media (max-width:768px) {
+    .airpods-img1 {
+        margin-right: 0;
+        padding-top: 30px;
+    }
+}
+
+@media (max-width:460px) {
+    .airpods-img1 {
+        max-width: 300px;
+        width: 100%;
+        max-height: 300px;
+        height: 100%;
+    }
+}
+
+
+.airpods-img {
+    margin: 30px 0 0 30px;
+    max-width: 552px;
+    max-height: 335px;
+}
+
+@media (max-width:768px) {
+    .airpods-img {
+        margin: 0;
+        padding-top: 30px;
+    }
+}
+
+@media (max-width:460px) {
+    .airpods-img {
+        max-width: 300px;
+        width: 100%;
+        max-height: 300px;
+        height: 100%;
+    }
+}
+
+.section-txt1 {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24.38px;
+    max-width: 333px;
+}
+
+@media (max-width:680px) {
+    .section-txt1 {
+        text-align: justify;
+        max-width: 500px;
+        margin-bottom: 50px;
+    }
+}
+
+.section-txt2 {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24.38px;
+    max-width: 333px;
+    text-align: end;
+}
+
+@media (max-width:680px) {
+    .section-txt2 {
+        text-align: justify;
+        max-width: 500px;
+        margin-top: 50px;
+    }
+}
+
+
+.airpods-image {
+    margin: 50px 14px 79px 14px;
+    max-width: 268px;
+    max-height: 375px;
+}
+
+.section-info2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width:680px) {
+    .section-info2 {
+        flex-direction: column;
+    }
+}
+
+
+/* section */
+
+/* section2 */
+
+.section2 {
+    background: rgb(21, 21, 21, 1);
+}
+
+.section-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 255px;
+    height: 312px;
+    background: #FFFFFF;
+    border-radius: 6px;
+}
+
+.card-title {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 20px;
+    color: #000000;
+    margin: 0px 58px 10px 58px;
+}
+
+.card-img {
+    max-width: 127.5px;
+    width: 100%;
+    max-height: 167px;
+    height: 100%;
+}
+
+.card-price {
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+    margin: 10px 0 20px 0;
+}
+
+.card-btn {
+    font-weight: 700;
+    font-size: 16px;
+    padding: 7px 57px;
+    color: #FFFFFF;
+    background: #151515;
+}
+
+.section-cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding-bottom: 55px;
+    flex-wrap: wrap;
+}
+
+@media (max-width:1024px) {
+    .section-cards {
+        justify-content: center;
+    }
+}
+
+/* section2 */
+/* footer */
+
+.footer {
+    background: #282828;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width:576px) {
+    .footer-content {
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+.footer-logo {
+    padding: 81px 0;
+}
+
+@media (max-width:576px) {
+    .footer-logo {
+        padding: 0;
+        margin-top: 30px;
+    }
+}
+
+.footer-list {
+    display: flex;
+    gap: 30px;
+}
+
+.footer-item {
+    color: #FFF;
+    font-size: 20px;
+    font-family: "Montserrat";
+    font-weight: 700;
+}
+
+.cash-me {
+    display: flex;
+    gap: 30px;
+}
+
+/* footer */
